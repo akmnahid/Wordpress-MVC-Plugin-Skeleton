@@ -11,3 +11,5 @@
 
 
 defined('ABSPATH') or die('No script kiddies please!');
+
+require realpath(__DIR__ . '/framework/FrameworkBootstrap.php');
