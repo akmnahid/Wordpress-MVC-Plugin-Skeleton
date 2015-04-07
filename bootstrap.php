@@ -12,4 +12,9 @@
 
 defined('ABSPATH') or die('No script kiddies please!');
 
+
+//config file
+$_wpsf_config = require realpath(__DIR__ . '/app/config/main.php');
+
+//including our framework
 require realpath(__DIR__ . '/framework/FrameworkBootstrap.php');

@@ -14,4 +14,18 @@ class BaseController
 {
     public $layout;
 
+
+    /**
+     * @param $view
+     * @param array $param
+     * @param bool $return
+     */
+    protected function render($view, $param = array(), $return = true)
+    {
+
+        extract($param);
+
+    }
+
+
 }
