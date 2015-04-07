@@ -1,1 +1,5 @@
-# Wordpress-MVC-Plugin
+# Wordpress Simple Skeleton MVC Plugin Framework
+
+# Integration Instruction 
+
+
